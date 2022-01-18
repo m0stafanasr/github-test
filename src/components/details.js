@@ -8,7 +8,7 @@ const Details = ()=>{
     const imgPath = `https://image.tmdb.org/t/p/w500`;
     useEffect(()=>{
         AxiosInstance
-        .get(`/${params.id}`,{
+        .get(`movie/${params.id}`,{
             params:{
                 api_key: `c5fbc220a0f27435df91404a8877973a`,
                 language: `en-US`
